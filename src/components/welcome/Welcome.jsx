@@ -23,15 +23,12 @@ const Welcome = () => {
         <div className="text-center">
             <h1>Sistema de gestion de solicitudes</h1>
             <hr />
-
-
             <div className="row">
-                <div className="col">
+                <div className="col-sm-6">
                     <Formulario />
                     <Listmyrequest />
                 </div>
-
-                <div className="col">
+                <div className="col-sm-6">
                     <Listarequest />
                 </div>
             </div>
